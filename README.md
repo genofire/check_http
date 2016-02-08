@@ -12,10 +12,14 @@ domains:
 
 ```
 ## Output
-0 = regex is okay
-W = request is okay, but not regex
-30 = a http 30* recieved
-E = everything else
+
+| Code | Result |
+|:----:|--------|
+|    0 | regex is okay |
+|   30 | a http 30* recieved |
+| W    | request is okay, but not regex |
+| E    | everything else "error" |
+
 
 ```
 +-----------------------------+------+------+----------+----------+
